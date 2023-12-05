@@ -1,0 +1,114 @@
+.page-content {
+    margin-top: 150px;
+    @media only screen and (max-width: 800px) {
+        margin-top: 50px;
+    }
+    font-family: 'Nanum Myeongjo', cursive;
+    line-height: 26px;
+
+}
+
+.hero {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    @media only screen and (max-width: 800px) {
+        margin-top: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.boxes {
+    display: flex;
+    height: 450px;
+    @media only screen and (max-width: 800px) {
+        height: 200px;
+    }
+}
+
+.green-box {
+    background: #243027;
+    width: 42vw;
+    display: flex;
+    justify-content: center;
+    @media only screen and (max-width: 800px) {
+        display: none;
+    }
+}
+
+.beige-box {
+    background: #f5e6d5;
+    width: 55vw;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @media only screen and (max-width: 800px) {
+        background: white;
+        width: 100vw;
+    }
+
+}
+
+.hero-image {
+    width: 400px;
+    margin-top: -400px;
+    margin-left: auto;
+    margin-right: 52vw;
+    border-radius: 200px 200px 0px 0px; 
+    @media only screen and (max-width: 800px) {
+        width: 300px;
+        height: 300px;
+        margin-top: 0px;
+        margin-right: auto;
+        border-radius: 150px 150px 150px 150px; 
+        object-fit: cover;
+
+    }
+
+}
+
+.hero-image-div {
+    display: flex;
+}
+
+.squiggle {
+    height: 100%;
+}
+
+.hello-message {
+    font-family: 'Nanum Myeongjo', cursive;
+    @media only screen and (max-width: 800px) {
+        font-size: 22px;
+    }
+}
+
+.hero-text {
+    font-family: 'Nanum Myeongjo', cursive;
+    font-size: 24px;
+    max-width: 80%;
+    @media only screen and (max-width: 800px) {
+        font-size: 17px;
+    }
+    line-height: 32px;
+
+}
+
+.subsection-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0;
+    width: 60%;
+    margin-left: 18%;
+}
+
+.home-table {
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    padding-bottom: 50px;
+  }
+  
