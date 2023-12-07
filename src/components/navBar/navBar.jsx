@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import linkedinIcon from './images/linkedin.png'
 
 import "./navBar.css";
 
@@ -46,7 +47,7 @@ const NavBar = (props) => {
 							>
 								<Link to="/contact">CONTACT</Link>
 							</li>
-							<a href="https://www.linkedin.com/in/nicole-ashley-cheung/" target="_blank"><img src="linkedin.png" alt="linkedin" className="linkedin-logo" /></a>
+							<a href="https://www.linkedin.com/in/nicole-ashley-cheung/" target="_blank"><img src={linkedinIcon} alt="linkedin" className="linkedin-logo" /></a>
 						</ul>
 					</div>
 				</nav>

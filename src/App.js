@@ -4,7 +4,7 @@ import Homepage from "./pages/home/homepage";
 
 const App = () => {
   const routes = useRoutes([
-      { path:"/", element: <Homepage />},
+      { path:"/portfolio", element: <Homepage />},
   ]);
 
   return routes;

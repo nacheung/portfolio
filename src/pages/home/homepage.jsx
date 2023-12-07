@@ -1,7 +1,8 @@
 import React from "react";
 import FadeIn from 'react-fade-in';
-import NavBar from "../../components/navBar/navBar.jsx"
-import {ReactComponent as Squiggle} from './squiggle.svg'
+import NavBar from "../../components/navBar/navBar"
+import {ReactComponent as Squiggle} from '../../components/home/images/squiggle.svg'
+import imageOfMe from '../../components/home/images/me.jpg'
 
 import "../pages.css"
 
@@ -27,7 +28,7 @@ const Homepage = () => {
                         </div>
                     </div>
                         <div className="hero-image-div">
-                            <img src="me.jpg" alt="me" className="hero-image"/>
+                            <img src={imageOfMe} alt="me" className="hero-image"/>
                         </div>
                 </FadeIn>
             </div>
@@ -60,16 +61,16 @@ const Homepage = () => {
                     </table>
                 </div>
             </div>
-            <div class="subsection-container">
+            <div className="subsection-container">
                 <h2>Experience</h2>
-                <table class="home-table work">
+                <table className="home-table work">
                     <thead>
                     <th>Work</th>
                     <th>Dates</th>
                     </thead>
                     <tbody>
-                    <tr class="experience-row">
-                        <td class="position">
+                    <tr className="experience-row">
+                        <td className="position">
                         Web Developer (co-op) | Invoke Media
                         <ul>
                             <li>
@@ -77,10 +78,10 @@ const Homepage = () => {
                             </li>
                         </ul>
                         </td>
-                        <td class="dates">Jan 2022 - Current</td>
+                        <td className="dates">Jan 2022 - Current</td>
                     </tr>
-                    <tr class="experience-row">
-                        <td class="position">
+                    <tr className="experience-row">
+                        <td className="position">
                         Open Science Specialist (co-op) | UBC Centre for Brain Health
                         <ul>
                             <li>
@@ -88,10 +89,10 @@ const Homepage = () => {
                             </li>
                         </ul>
                         </td>
-                        <td class="dates">Sep 2021 - Dec 2021</td>
+                        <td className="dates">Sep 2021 - Dec 2021</td>
                     </tr>
-                    <tr class="experience-row">
-                        <td class="position">
+                    <tr className="experience-row">
+                        <td className="position">
                         Program Coordinator | Office of Pediatric Surgical Evaluation and Innovation - BC Children's Hospital
                         <ul>
                             <li>
@@ -99,37 +100,37 @@ const Homepage = () => {
                             </li>
                         </ul>
                         </td>
-                        <td class="dates">Jul 2019 - Aug 2020</td>
+                        <td className="dates">Jul 2019 - Aug 2020</td>
                     </tr>
-                    <tr class="experience-row">
-                        <td class="position">
+                    <tr className="experience-row">
+                        <td className="position">
                         Research Assistant | Office of Pediatric Surgical Evaluation and Innovation - BC Children's Hospital
                         <ul>
                             <li> Assisted with several research and quality improvement projects which I presented at hospital academic rounds. </li>
                         </ul>
                         </td>
-                        <td class="dates">May 2018 - Jul 2019</td>
+                        <td className="dates">May 2018 - Jul 2019</td>
 
                     </tr>
-                    <tr class="experience-row">
-                        <td class="position">
+                    <tr className="experience-row">
+                        <td className="position">
                         Shift Supervisor | Starbucks Canada
                         <ul>
                             <li> Supervised a busy store, trained new hires, and solved a wide range of unpredictable problems. </li>
                         </ul>
                         </td>
-                        <td class="dates">May 2018 - Jul 2019</td>
+                        <td className="dates">May 2018 - Jul 2019</td>
 
                     </tr>
 
-                    <tr class="experience-row">
-                        <td class="position">
+                    <tr className="experience-row">
+                        <td className="position">
                         Go Girls Program Mentor (Volunteer) | Big Sisters of Canada
                         <ul>
                             <li> Ran a program for girls in grades 6-7 teaching them about healthy lifestyles through activities to build knowledge and self-esteem. </li>
                         </ul>
                         </td>
-                        <td class="dates">Apr 2015 - May 2018</td>
+                        <td className="dates">Apr 2015 - May 2018</td>
 
                     </tr>
                     </tbody>
