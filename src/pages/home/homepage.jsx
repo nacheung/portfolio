@@ -35,11 +35,11 @@ const Homepage = () => {
             <div>
                 <div className="subsection-container">
                     <h2>Education</h2>
-                    <h4>My most recent education is from the Bachelor of Computer Science program at UBC. 
+                    <p>My most recent education is from the Bachelor of Computer Science program at UBC. 
                         It's an excelerated program for students who already have another Bachelor's degree.
                         I also have a Bachelor of Science from the Combined Major in Science program
                         which allowed me to combine specializations of Chemistry, Physics, and Biology. 
-                    </h4>
+                    </p>
                     <br/>
                     <table className="home-table education">
                         <thead>
@@ -51,11 +51,11 @@ const Homepage = () => {
                             <td>
                                 Bachelor of Computer Science | University of British Columbia
                             </td>
-                            <td>Sep 2020 - Dec 2023</td>
+                            <td className="dates">Sep 2020 - Dec 2023</td>
                             </tr>
                             <tr>
                             <td> Bachelor of Science | University of British Columbia</td>
-                            <td>Sep 2013 - Apr 2018</td>
+                            <td className="dates">Sep 2013 - Apr 2018</td>
                             </tr>
                         </tbody>
                     </table>
@@ -71,6 +71,17 @@ const Homepage = () => {
                     <tbody>
                     <tr className="experience-row">
                         <td className="position">
+                        UI Developer (co-op) | Jostle
+                        <ul>
+                            <li>
+                            Develop client and internal projects while collaborating with the Design, Strategy, and Project Management teams in a Scrum environment.
+                            </li>
+                        </ul>
+                        </td>
+                        <td className="dates">Jan 2023 - Aug 2023</td>
+                    </tr>
+                    <tr className="experience-row">
+                        <td className="position">
                         Web Developer (co-op) | Invoke Media
                         <ul>
                             <li>
@@ -78,7 +89,7 @@ const Homepage = () => {
                             </li>
                         </ul>
                         </td>
-                        <td className="dates">Jan 2022 - Current</td>
+                        <td className="dates">Jan 2022 - May 2022</td>
                     </tr>
                     <tr className="experience-row">
                         <td className="position">
