@@ -18,7 +18,7 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/">HOME</Link>
+								<Link to="/portfolio">HOME</Link>
 							</li>
 							<li
 								className={
@@ -27,16 +27,16 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/about">ABOUT</Link>
+								<Link to="/portfolio/about">ABOUT</Link>
 							</li>
 							<li
 								className={
-									active === "cv"
+									active === "resume"
 										? "nav-item active"
 										: "nav-item"
 								}
 							>
-								<Link to="/cv">CV</Link>
+								<Link to="/portfolio/resume">RESUME</Link>
 							</li>
 							<li
 								className={
@@ -45,7 +45,7 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/contact">CONTACT</Link>
+								<Link to="/portfolio/contact">CONTACT</Link>
 							</li>
 							<a href="https://www.linkedin.com/in/nicole-ashley-cheung/" target="_blank"><img src={linkedinIcon} alt="linkedin" className="linkedin-logo" /></a>
 						</ul>

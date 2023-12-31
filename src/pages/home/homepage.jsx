@@ -3,6 +3,8 @@ import FadeIn from 'react-fade-in';
 import NavBar from "../../components/navBar/navBar"
 import {ReactComponent as Squiggle} from '../../components/home/images/squiggle.svg'
 import imageOfMe from '../../components/home/images/me.jpg'
+import { Link } from "react-router-dom";
+
 
 import "../pages.css"
 
@@ -59,7 +61,7 @@ const Homepage = () => {
             </div>
             <div className="subsection-container">
                 <h2>Experience</h2>
-                <p className="subsection-description">More details can be found on my resume.</p>
+                <p className="subsection-description">More details can be found on my <Link to="/portfolio/resume">resume.</Link></p>
                 <br/>
                 <table className="home-table work">
                     <tbody>
