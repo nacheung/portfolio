@@ -61,7 +61,7 @@ const Homepage = () => {
             </div>
             <div className="subsection-container">
                 <h2>Experience</h2>
-                <p className="subsection-description">More details can be found on my <Link to="/portfolio/resume">resume.</Link></p>
+                <p className="subsection-description">More details can be found on my <Link className="resume-link" to="/portfolio/resume">resume.</Link></p>
                 <br/>
                 <table className="home-table work">
                     <tbody>

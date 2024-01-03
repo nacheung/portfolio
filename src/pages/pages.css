@@ -33,7 +33,10 @@
     background: #243027;
     width: 42vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    color: white;
     @media only screen and (max-width: 800px) {
         display: none !important; 
     }
@@ -147,3 +150,63 @@ td {
     }
 }
   
+.contact-box-div {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    @media only screen and (max-width: 800px) {
+        height: 200px;
+    }
+}
+
+.connect-message {
+    font-family: 'Nanum Myeongjo', cursive;
+    font-size: 50px;
+
+    @media only screen and (max-width: 800px) {
+        font-size: 22px;
+    }
+}
+
+
+.contact-green-box {
+    background: #243027;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 150px;
+    border-radius: 10%;
+    @media only screen and (max-width: 800px) {
+    }
+}
+
+.contact {
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.contact-link:link {
+    color: white;
+    background-color: transparent;
+}
+
+.contact-link:visited {
+    color: white;
+    background-color: transparent;
+
+  }
+
+.contact-link:hover {
+    color: #243027;
+    background-color: white;
+    font-weight: bold;
+}
+
+.contact-logo {
+    width: 30px;
+    padding-right: 15px;
+    top: 6px;
+    position: relative;
+}
