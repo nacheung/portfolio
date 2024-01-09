@@ -21,7 +21,7 @@ const Aboutpage = () => {
                     <div className="about-boxes">
 
                         <div className="about-beige-box">
-                            <div className="hero-text">
+                            <div className="about-text">
                                 <h3>After work, you can find me...</h3>
                                 Strolling through Stanley Park or another Vancouver beach - rain or shine!
                             </div>
@@ -32,7 +32,7 @@ const Aboutpage = () => {
                     </div>
                     <div className="about-boxes">
                         <div className="about-beige-box">
-                            <div className="hero-text">
+                            <div className="about-text">
                                 <h3>Dog or cat person?</h3>
                                 I love both, but think I'm more of a dog person. This is my dog Molly.
                             </div>
@@ -43,7 +43,7 @@ const Aboutpage = () => {
                     </div>
                     <div className="about-boxes">
                         <div className="about-beige-box">
-                            <div className="hero-text">
+                            <div className="about-text">
                                 <h3>My hobbies include...</h3>
                                 Exploring new restaurants, trying different cuisines, cooking and baking. I made this apple pie at a pie-making class.
                             </div>

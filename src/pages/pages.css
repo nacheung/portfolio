@@ -154,6 +154,9 @@ td {
 
 .about-section {
     padding: 0 100px;
+    @media only screen and (max-width: 800px) {
+        padding: 0 20px;
+    }
 }
 
 .about-boxes {
@@ -177,6 +180,8 @@ td {
     @media only screen and (max-width: 800px) {
         background: white;
         width: 100vw;
+        justify-content: start;
+
     }
 
 }
@@ -189,6 +194,18 @@ td {
     border-radius: 0 10% 10% 0;
     @media only screen and (max-width: 800px) {
         border-radius: 10% 10% 10% 10%;
+    }
+
+}
+
+.about-text {
+    font-family: 'Nanum Myeongjo', cursive;
+    font-size: 24px;
+    max-width: 80%;
+    line-height: 32px;
+    @media only screen and (max-width: 800px) {
+        font-size: 14px;
+        line-height: 20px;
     }
 
 }
