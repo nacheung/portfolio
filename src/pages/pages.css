@@ -194,6 +194,7 @@ td {
     border-radius: 0 10% 10% 0;
     @media only screen and (max-width: 800px) {
         border-radius: 10% 10% 10% 10%;
+        width: 145px;
     }
 
 }
