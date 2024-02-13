@@ -187,11 +187,12 @@ td {
 }
 
 .about-image-div {
-    display: flex
+    display: flex;
 }
 
 .about-image {
     border-radius: 0 10% 10% 0;
+    width: 250px;
     @media only screen and (max-width: 800px) {
         border-radius: 10% 10% 10% 10%;
         width: 145px;
