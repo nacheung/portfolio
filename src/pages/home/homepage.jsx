@@ -7,8 +7,24 @@ import { Link } from "react-router-dom";
 
 
 import "../pages.css"
+  
 
+const apiUrl = 'https://www.tiktok.com/oembed?url=https://www.tiktok.com/@freshofftheraq/video/7289216870433983749';
 
+// Make a GET request
+fetch(apiUrl)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    return response.json();
+  })
+  .then(data => {
+    console.log(data.html);
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
 
 const Homepage = () => {
 
@@ -35,6 +51,27 @@ const Homepage = () => {
                 </FadeIn>
             </div>
             <div>
+                <div className="subsection-container">
+                        <h2>Projects</h2>
+                        <p className="subsection-description">More details can be found on my <Link className="resume-link" to="/portfolio/resume">resume.</Link></p>
+                        <ul className="projects">
+                            <li>
+                                <a className="project-title" href="https://www.kickstarter.com/projects/attasociety/when-air-takes-shape-global-air-quality-interactive-art" target="_blank">When Air Takes Shape </a> <br/>
+                                This is a Global Air Quality Interactive Art installation creatted by ATTA Society. As a volunteer with ATTA, I’m helping to develop the program that enables users to select a country/region for the
+                                sculpture to visualize air quality data and access interactive educational content about climate change.
+                            </li>
+                            <br/>
+                            <li>
+                                <a className="project-title" href="https://my-recipes.fly.dev" target="_blank">MyRecipes </a> <br/>
+                                This web application allows users to enter a recipe blog url and parses the blog to extract the recipe. It then allows users to modify and save the recipe. Soon, users will also be able to enter TikTok and Instagram URLs to extract the recipes.
+                            </li>
+                            <br/>
+                            <li>
+                                <a className="project-title" href="https://nacheung.github.io/ted_talking/" target="_blank">TED Talking </a> <br/>
+                                This dynamic visualization allows users to explore TED Talk data and find talks based on theme and other attributes.
+                            </li>
+                        </ul>
+                    </div>
                 <div className="subsection-container">
                     <h2>Education</h2>
                     <p className="subsection-description">My most recent education is from the Bachelor of Computer Science program at UBC. 
@@ -93,7 +130,7 @@ const Homepage = () => {
                         <td className="position">
                         Research Assistant (co-op) | Office of Pediatric Surgical Evaluation and Innovation - BC Children's Hospital
                         </td>
-                        <td className="dates">May 2018 - Jul 2019</td>
+                        <td className="dates">May 2017 - Aug 2017</td>
 
                     </tr>
                     <tr className="experience-row">

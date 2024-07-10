@@ -126,6 +126,15 @@
     }
 }
 
+.projects {
+    margin-top: 0;
+}
+
+.project-title {
+    font-weight: bold;
+}
+
+
 .home-table {
     text-align: left;
     font-size: 18px;
@@ -236,12 +245,13 @@ td {
 
 .contact-green-box {
     background: #243027;
-    width: 400px;
+    width: 50vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     color: white;
-    padding: 150px;
+    padding: 50px;
     border-radius: 10%;
     @media only screen and (max-width: 800px) {
     }
@@ -250,6 +260,10 @@ td {
 .contact {
     line-height: 40px;
     font-size: 20px;
+}
+
+.contact-text {
+    width:fit-content;
 }
 
 .contact-link:link {
